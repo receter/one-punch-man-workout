@@ -1,0 +1,41 @@
+.exerciseControls {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.groupAdd,
+.groupSub {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.groupAdd {
+    left: 0;
+}
+
+.groupSub {
+    right: 0;
+}
+
+.exerciseControls button {
+    color: inherit;
+    padding: 0 2rem;
+    border: 0;
+    background: green;
+    height: 100%;
+}
+
+.groupAdd button + button,
+.groupSub button + button {
+
+}
+
+.groupSub {
+
+}
