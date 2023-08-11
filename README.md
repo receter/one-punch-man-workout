@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# One Punch Man Workout Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Try it out, free forever: https://one-punch-man-workout.surge.sh/
+
+[Why I did this project](https://dev.to/receter/one-punch-man-workout-app-source-code-3dcp)
+
+## Todos
+
+- A calendar at the bottom where you can see check marks for each completed day.
+- Setting screen with some checkboxes where you can set which of the exercises to track (for example, if you want to opt out of the 10km running).
 
 ## Available Scripts
 
