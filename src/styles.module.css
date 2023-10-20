@@ -6,13 +6,29 @@
     position: relative;
     height: 25vh;
     text-align: center;
+    box-sizing: border-box;
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.exercise:first-child {
+    border: 0;
 }
 
 .exerciseTitle {
-
+    font-size: 2vh;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    opacity: .75;
+    text-align: center;
+    width: 100%;
 }
 
 .exerciseValue {
+    font-size: 10vh;
 
 }
 

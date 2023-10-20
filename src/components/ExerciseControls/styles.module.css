@@ -13,6 +13,8 @@
     position: absolute;
     top: 0;
     bottom: 0;
+    gap: .25rem;
+    margin: 1rem;
 }
 
 .groupAdd {
@@ -24,11 +26,16 @@
 }
 
 .exerciseControls button {
-    color: inherit;
     padding: 0 2rem;
     border: 0;
-    background: green;
+    background: white;
+    color: black;
+    font-size: 24px;
     height: 100%;
+}
+
+.exerciseControls button:active {
+    background: gray;
 }
 
 .groupAdd button + button,

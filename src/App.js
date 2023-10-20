@@ -98,8 +98,9 @@ function App() {
         {activeControlGroup === 3 &&
           <ExerciseControls onClickAdd={handleClickAddRunning} />}
       </div>
-      <div>
-        Today Key: {dayjs().format('YYYY-MM-DD')}
+      <div style={{textAlign: 'center', borderTop: '1px solid white'}}>
+        <h1>Work in Progress!</h1>
+        Today: {dayjs().format('YYYY-MM-DD')}
         <Calendar />
       </div>
     </div>
