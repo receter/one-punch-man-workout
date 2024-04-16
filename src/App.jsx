@@ -23,7 +23,6 @@ function App() {
   const currentDayData = data.days.find(elm => elm.day === today.format('YYYY-MM-DD'));
 
   useEffect(() => {
-    console.log('saving:', data);
     localStorage.setItem('one-punch-man-v1', JSON.stringify(data));
   }, [data])
 
@@ -98,7 +97,7 @@ function App() {
         {activeControlGroup === 3 &&
           <ExerciseControls onClickAdd={handleClickAddRunning} />}
       </div>
-      <div style={{textAlign: 'center', borderTop: '1px solid white'}}>
+      <div style={{ textAlign: 'center', borderTop: '1px solid white' }}>
         <h1>Work in Progress!</h1>
         Today: {dayjs().format('YYYY-MM-DD')}
         <Calendar />
