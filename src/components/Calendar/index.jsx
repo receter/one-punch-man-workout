@@ -2,7 +2,7 @@ import styles from './styles.module.css'
 import dayjs from 'dayjs';
 import { useMemo, useState } from 'react';
 
-export function Calendar({ daysWithData }) {
+export function Calendar() {
 
   const [today] = useState(dayjs());
 
@@ -58,7 +58,7 @@ export function Calendar({ daysWithData }) {
         <div
           key={key}
           style={{
-            gridColumnStart: key===0 ? firstDayOfMonthOffset + 1 : undefined, // grid cols 1 based
+            gridColumnStart: key === 0 ? firstDayOfMonthOffset + 1 : undefined, // grid cols 1 based
           }}
         >
           {key + 1}
